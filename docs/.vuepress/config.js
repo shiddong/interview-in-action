@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-16 23:45:29
+ * @LastEditTime: 2020-08-18 07:31:18
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -12,7 +12,7 @@ module.exports = {
   theme: "reco",
   title: "Interview",
   description: "前端面试实战",
-  base: "/interview-in-action",
+  base: "/interview-in-action/",
   themeConfig: {
     nav: [
       {
