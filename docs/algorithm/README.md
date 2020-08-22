@@ -1,6 +1,3 @@
----
-sidebar: auto
-title: 算法
----
+# 算法
 
-# suanfa
+![image-20200822223601752](./assets/images/image-20200822223601752.png)
