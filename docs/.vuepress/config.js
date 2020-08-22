@@ -1,10 +1,10 @@
 /*
- * @File: 文件名
- * @Description: 文件描述
+ * @File: vuepress config
+ * @Description: 全局配置文件
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-18 07:31:18
+ * @LastEditTime: 2020-08-22 18:29:38
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -21,7 +21,19 @@ module.exports = {
       },
       {
         text: "JS",
-        link: "/javascript/类型",
+        link: "/javascript/",
+      },
+      {
+        text: "HTML",
+        link: "/html/",
+      },
+      {
+        text: "CSS",
+        link: "/css/",
+      },
+      {
+        text: "React",
+        link: "/react/",
       },
       {
         text: "Github",
@@ -35,9 +47,19 @@ module.exports = {
     prevLinks: true,
     smoothScroll: true,
     sidebar: {
-      "/javascript/": ["", ["类型", "类型"], ["深拷贝", "深拷贝"]],
-      "/algorithm/": ["", "foo"],
+      "/javascript/": [
+        {
+          title: "原理",
+          path: "/javascript/原理.md",
+          initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+        },
+        {
+          title: "类型",
+          path: "/javascript/类型/",
+          children: ["/javascript/类型/深拷贝.md", "/javascript/类型/类型.md"],
+          initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+        },
+      ],
     },
-    sidebarDepth: 2,
   },
 };

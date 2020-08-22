@@ -1,8 +1,10 @@
 ---
-sidebar: false
+date: 2020-08-17
+author: shiddong
+sidebar: true
 ---
 
-# 深拷贝
+# Firber
 
 ## base
 

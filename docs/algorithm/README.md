@@ -1,8 +1,6 @@
 ---
 sidebar: auto
+title: 算法
 ---
 
-
-# 算法
-
-shiddong
+# suanfa

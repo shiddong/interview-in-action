@@ -6,13 +6,15 @@
   "author": "shiddong <shiddong@outlook.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "vuepress": "^1.5.3",
+    "vuepress-theme-reco": "^1.5.5"
   },
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "dependencies": {
-    "vuepress-theme-reco": "^1.5.5"
+    "add": "^2.0.6",
+    "yarn": "^1.22.4"
   }
 }
