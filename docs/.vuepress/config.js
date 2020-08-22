@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-22 21:59:31
+ * @LastEditTime: 2020-08-22 23:04:19
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -65,6 +65,18 @@ module.exports = {
           title: "哈希表",
           path: "/algorithm/哈希表/",
           children: ["/algorithm/哈希表/1.两数之和.md"],
+          initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+        },
+        {
+          title: "二分查找",
+          path: "/algorithm/二分查找/",
+          children: [],
+          initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+        },
+        {
+          title: "动态规划",
+          path: "/algorithm/动态规划/",
+          children: [],
           initialOpenGroupIndex: -1, // 可选的, 默认值是 0
         },
       ],
