@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-23 11:30:05
+ * @LastEditTime: 2020-08-24 23:03:32
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -68,6 +68,7 @@ module.exports = {
           children: [
             "/algorithm/哈希表/1.两数之和.md",
             "/algorithm/哈希表/136.只出现一次的数字.md",
+            "/algorithm/哈希表/202.快乐数.md",
           ],
           initialOpenGroupIndex: -1, // 可选的, 默认值是 0
         },
