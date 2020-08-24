@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-24 23:03:32
+ * @LastEditTime: 2020-08-24 23:45:24
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -75,13 +75,13 @@ module.exports = {
         {
           title: "二分查找",
           path: "/algorithm/二分查找/",
-          children: [],
+          children: ["/algorithm/二分查找/35.搜索插入位置.md"],
           initialOpenGroupIndex: -1, // 可选的, 默认值是 0
         },
         {
           title: "动态规划",
           path: "/algorithm/动态规划/",
-          children: [],
+          children: ["/algorithm/动态规划/53.最大子序和.md"],
           initialOpenGroupIndex: -1, // 可选的, 默认值是 0
         },
       ],

@@ -8,5 +8,3 @@ actionLink: /javascript/
 features: null
 footer: MIT Licensed | Copyright © 2020-present Shiddong
 ---
-
-dsdaw
