@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-24 23:45:24
+ * @LastEditTime: 2020-08-25 22:55:28
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -14,6 +14,9 @@ module.exports = {
   description: "前端面试实战",
   author: "shiddong",
   base: "/interview-in-action/",
+  markdown: {
+    lineNumbers: true,
+  },
   themeConfig: {
     nav: [
       {
@@ -69,6 +72,7 @@ module.exports = {
             "/algorithm/哈希表/1.两数之和.md",
             "/algorithm/哈希表/136.只出现一次的数字.md",
             "/algorithm/哈希表/202.快乐数.md",
+            "/algorithm/哈希表/204.计数质数.md",
           ],
           initialOpenGroupIndex: -1, // 可选的, 默认值是 0
         },
