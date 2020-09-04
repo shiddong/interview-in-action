@@ -6,6 +6,7 @@
   "author": "shiddong <shiddong@outlook.com>",
   "license": "MIT",
   "devDependencies": {
+    "markdown-it-katex": "^2.0.3",
     "vuepress": "^1.5.3",
     "vuepress-theme-reco": "^1.5.5"
   },

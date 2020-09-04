@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-08-25 22:55:28
+ * @LastEditTime: 2020-09-04 07:52:20
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -14,8 +14,32 @@ module.exports = {
   description: "前端面试实战",
   author: "shiddong",
   base: "/interview-in-action/",
+  head: [
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css",
+      },
+    ],
+  ],
   markdown: {
     lineNumbers: true,
+    extendMarkdown: (md) => {
+      md.set({
+        html: true,
+      });
+      md.use(require("markdown-it-katex"));
+    },
   },
   themeConfig: {
     nav: [
