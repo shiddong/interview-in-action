@@ -4,7 +4,7 @@
  * @Author: shiddong <shiddong@outlook.com>
  * @Date: 2020-08-16 18:28:06
  * @LastEditors: shiddong
- * @LastEditTime: 2020-09-04 07:52:20
+ * @LastEditTime: 2020-09-04 08:21:16
  * @FilePath: /interview-in-action/docs/.vuepress/config.js
  */
 
@@ -104,6 +104,18 @@ module.exports = {
           title: "二分查找",
           path: "/algorithm/二分查找/",
           children: ["/algorithm/二分查找/35.搜索插入位置.md"],
+          initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+        },
+        {
+          title: "队列&栈",
+          path: "/algorithm/队列&栈/",
+          children: ["/algorithm/队列&栈/20.有效的括号.md"],
+          initialOpenGroupIndex: -1, // 可选的, 默认值是 0
+        },
+        {
+          title: "二叉树",
+          path: "/algorithm/二叉树/",
+          children: ["/algorithm/二叉树/144.二叉树的前序遍历.md"],
           initialOpenGroupIndex: -1, // 可选的, 默认值是 0
         },
         {
